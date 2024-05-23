@@ -1,0 +1,23 @@
+ version: "3.3"
+
+ services:
+   table_frontend:
+     build: ./table_frontend
+     image: mark2024/table_frontend
+     ports:
+       - 8000:8000 
+   api-usuarios:
+     build: ./api-usuarios
+     image: mark2024/api-usuarios
+     ports:
+       - 8001:8001
+   api-productos:
+     build: ./api-productos
+     image: mark2024/api-productos
+     ports:
+       - 8082:8002
+   api-pedidos:
+     build: ./api-pedidos
+     image: mark2024/api-pedidos
+     ports:
+       - 8003:8003     

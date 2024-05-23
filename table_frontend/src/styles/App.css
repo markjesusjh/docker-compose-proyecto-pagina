@@ -1,0 +1,46 @@
+.TableContainer {
+  width: 80%; 
+  background-color: white;
+  color: white; 
+}
+
+.TableCell {
+  border-color: white;
+}
+
+/* App.css */
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.fixed-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-nav ul li {
+  margin: 0 15px;
+}
+
+.fixed-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.fixed-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-top: 60px; 
+  padding: 20px;
+}
